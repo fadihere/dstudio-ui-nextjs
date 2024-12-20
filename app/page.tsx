@@ -7,7 +7,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   return (
-    <div className="container mx-auto p-5 ">
+    <div className="container mx-auto p-5 sm:p-9 ">
       <Nav />
       <section className="px-3 text-center space-y-2 py-10 sm:space-y-6">
         <h1 className="text-3xl font-bold sm:text-5xl">
@@ -50,28 +50,24 @@ function Home() {
             message="Troct Premium helps you start saver investments insights covering."
             classProps="bg-[#5ecca0]"
             darkMode={false}
-            percent={"7.20%"}
           />
           <Card
             title="Long-Term"
             message="Create a vision. TO get started, imagine life."
             classProps="bg-[#0a0a0a]"
             darkMode={true}
-            percent={"14.20%"}
           />
           <Card
-            title="Focussed"
-            message="Be focused Life phoning. however, can serve as o roadmap or guide."
+            title="Money Momentum"
+            message="Troct Premium helps you start saver investments insights covering."
             classProps="bg-[#cb9bfa]"
             darkMode={false}
-            percent={"11.20%"}
           />
           <Card
-            title="Fixed Income"
-            message="Get multiple benefits, and lumpsum option & Guaranteed Returns."
+            title="Money Momentum"
+            message="Troct Premium helps you start saver investments insights covering."
             classProps="bg-[#f8fd91]"
             darkMode={false}
-            percent={"8.20%"}
           />
         </div>
       </section>
