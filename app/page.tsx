@@ -47,27 +47,35 @@ function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-4">
           <Card
             title="Money Momentum"
-            message="Troct Premium helps you start saver investments insights covering."
+            message="Tract Premium helps you start saver investments insights covering."
             classProps="bg-[#5ecca0]"
             darkMode={false}
+            percent={"7.20%"}
+            tag={"STRATEGY"}
           />
           <Card
             title="Long-Term"
-            message="Create a vision. TO get started, imagine life."
+            message="Create a vision. TO get started, imagine your dream life."
             classProps="bg-[#0a0a0a]"
             darkMode={true}
+            percent={"14.20%"}
+            tag={"PLANS"}
           />
           <Card
-            title="Money Momentum"
-            message="Troct Premium helps you start saver investments insights covering."
+            title="Focussed"
+            message="Be focused Life planning, however, can serve as a roadmap or guide."
             classProps="bg-[#cb9bfa]"
             darkMode={false}
+            percent={"11.20%"}
+            tag={"STRATEGY"}
           />
           <Card
-            title="Money Momentum"
-            message="Troct Premium helps you start saver investments insights covering."
+            title="Fixed Income"
+            message="Get multiple benefits, and lumpsum option & Guaranteed Returns"
             classProps="bg-[#f8fd91]"
             darkMode={false}
+            percent={"8.20%"}
+            tag={"PLANS"}
           />
         </div>
       </section>

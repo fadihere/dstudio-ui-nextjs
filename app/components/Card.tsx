@@ -5,6 +5,7 @@ import Divider from "./Divider";
 
 interface CardProps {
   title: string;
+  tag: string;
   message: string;
   classProps?: string;
   darkMode: boolean;
@@ -16,6 +17,7 @@ const Card = ({
   message,
   classProps,
   percent,
+  tag,
   darkMode = false,
 }: CardProps) => {
   return (
@@ -30,7 +32,7 @@ const Card = ({
             darkMode ? "text-slate-300" : "text-slate-600"
           } text-slate-600 font-bold text-[0.7rem]`}
         >
-          STRATEGY
+          {tag}
         </p>
         <p className={`font-bold text-xl`}>{title}</p>
         <p className="text-xs font-medium">{message}</p>

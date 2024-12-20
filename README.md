@@ -2,7 +2,11 @@
 
 This repository showcases a user interface (UI) project built using **Next.js**. The design of the UI was inspired by the creative and modern aesthetics of [DStudio](https://dribbble.com/shots/21071489-Web-UI) on Dribbble. Below is a preview of the UI design:
 
-![Local Image](./image.png)
+![Local Image](./image1.png)
+
+![Local Image](./image2.png)
+
+![Local Image](./image3.png)
 
 The project demonstrates how to implement a visually appealing and functional UI using the latest technologies.
 
